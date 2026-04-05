@@ -162,7 +162,7 @@
   "🚀 Entrega": [
     {
       "texto": "Repositorio Git subido a GitHub",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Deploy en GitHub Pages / Netlify / Vercel",
