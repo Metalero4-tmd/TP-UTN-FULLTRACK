@@ -1,0 +1,176 @@
+{
+  "📁 Estructura del Proyecto": [
+    {
+      "texto": "Crear index.html y style.css raíz",
+      "hecho": true
+    },
+    {
+      "texto": "Carpeta css/ con archivos CSS",
+      "hecho": true
+    },
+    {
+      "texto": "Carpeta img/ con todas las imágenes",
+      "hecho": true
+    },
+    {
+      "texto": "Carpeta js/ (opcional)",
+      "hecho": true
+    },
+    {
+      "texto": "Google Font importada y aplicada",
+      "hecho": true
+    },
+    {
+      "texto": "Mínimo 2 iconos (Bootstrap Icons / Font Awesome)",
+      "hecho": false
+    },
+    {
+      "texto": "Navbar con enlaces # en el header",
+      "hecho": false
+    },
+    {
+      "texto": "1 componente de Bootstrap (máximo)",
+      "hecho": false
+    },
+    {
+      "texto": "Meta tag viewport en el <head>",
+      "hecho": true
+    },
+    {
+      "texto": "Secciones conectadas por anclas #seccion",
+      "hecho": false
+    },
+    {
+      "texto": "logo tienda",
+      "hecho": true
+    }
+  ],
+  "🏠 Sección 1 — Home": [
+    {
+      "texto": "Imagen principal: ancho >= 80%, alto >= 1/3 pantalla",
+      "hecho": false
+    },
+    {
+      "texto": "Header con navbar",
+      "hecho": false
+    },
+    {
+      "texto": "Títulos semánticos (h1, h2...)",
+      "hecho": false
+    },
+    {
+      "texto": "Textos descriptivos",
+      "hecho": false
+    },
+    {
+      "texto": "Footer",
+      "hecho": false
+    }
+  ],
+  "🃏 Sección 2 — Cards": [
+    {
+      "texto": "Mínimo 2 cards",
+      "hecho": false
+    },
+    {
+      "texto": "Cada card: imagen + título + texto",
+      "hecho": false
+    },
+    {
+      "texto": "Botón en las cards",
+      "hecho": false
+    }
+  ],
+  "🖼️ Sección 3 — Galería": [
+    {
+      "texto": "Mínimo 7 imágenes en grilla",
+      "hecho": false
+    },
+    {
+      "texto": "Título de sección",
+      "hecho": false
+    },
+    {
+      "texto": "Layout con Grid o Flex",
+      "hecho": false
+    }
+  ],
+  "📬 Sección 4 — Contacto": [
+    {
+      "texto": "Input: Nombre",
+      "hecho": false
+    },
+    {
+      "texto": "Input: Email",
+      "hecho": false
+    },
+    {
+      "texto": "Input: Teléfono",
+      "hecho": false
+    },
+    {
+      "texto": "Textarea: Comentario",
+      "hecho": false
+    },
+    {
+      "texto": "Select (selector desplegable)",
+      "hecho": false
+    },
+    {
+      "texto": "Radio o Checkbox",
+      "hecho": false
+    },
+    {
+      "texto": "Labels para cada campo",
+      "hecho": false
+    },
+    {
+      "texto": "Botón Enviar",
+      "hecho": false
+    },
+    {
+      "texto": "Botón Reset",
+      "hecho": false
+    }
+  ],
+  "⚙️ Consideraciones Generales": [
+    {
+      "texto": "Cada sección ocupa mínimo 100vh",
+      "hecho": false
+    },
+    {
+      "texto": "IDs y clases usadas correctamente",
+      "hecho": false
+    },
+    {
+      "texto": "Flex y/o Grid implementados",
+      "hecho": false
+    },
+    {
+      "texto": "Código correctamente indentado",
+      "hecho": false
+    },
+    {
+      "texto": "Comentarios en HTML y CSS",
+      "hecho": false
+    },
+    {
+      "texto": "Responsive: 360px / 768px / 1024px con mediaqueries",
+      "hecho": false
+    }
+  ],
+  "🚀 Entrega": [
+    {
+      "texto": "Repositorio Git subido a GitHub",
+      "hecho": false
+    },
+    {
+      "texto": "Deploy en GitHub Pages / Netlify / Vercel",
+      "hecho": false
+    },
+    {
+      "texto": "Link funcional y accesible",
+      "hecho": false
+    }
+  ]
+}
