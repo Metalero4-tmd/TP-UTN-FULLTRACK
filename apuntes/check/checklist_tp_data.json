@@ -22,7 +22,7 @@
     },
     {
       "texto": "Mínimo 2 iconos (Bootstrap Icons / Font Awesome)",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Navbar con enlaces # en el header",

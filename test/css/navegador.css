@@ -1,0 +1,31 @@
+.cabecero {
+  height: 35vh;
+  width: 100vw;
+  background: url("../logo/nuevo/Sitio_web.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+
+} 
+
+.listado-ul {
+  /*quita el espacio de la izquierda de cada uno de los list*/
+  padding-inline-start: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  background-color: rgb(228, 137, 19);
+  border-radius: 4px;
+}
+
+li {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  text-align: initial;
+}

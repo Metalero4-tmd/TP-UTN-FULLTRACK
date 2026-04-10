@@ -1,8 +1,16 @@
+/* import los css de cada sección */
+@import url(navegador.css);
+
 /* Reset */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
 }
 
 h1,
@@ -12,12 +20,7 @@ p {
   margin: 0;
 }
 
-body {
-  margin: 0;
-  line-height: 1.5;
-}
-
-/*Jerarquía tipográfica*/
+/*tipográfica*/
 
 h1 {
   font-family: "Raleway", sans-serif;
@@ -35,6 +38,6 @@ h3 {
 }
 
 p {
-   font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: clamp(1rem, 1.2vw, 1.1rem);
 }
