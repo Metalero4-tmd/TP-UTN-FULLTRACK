@@ -1,5 +1,6 @@
 /* import los css de cada sección */
 @import url(navegador.css);
+@import url(secciones.css);
 
 /* Reset */
 *,
@@ -11,6 +12,8 @@
 body {
   margin: 0;
   line-height: 1.5;
+
+  background: #353434;
 }
 
 h1,
