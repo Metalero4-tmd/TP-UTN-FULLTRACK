@@ -1,0 +1,9 @@
+.class-footer {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  background-color: #062424;
+  color: #ffffff;
+  border: 2px solid crimson;
+  margin-top: 40px; 
+}

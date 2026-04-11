@@ -1,6 +1,7 @@
 /* import los css de cada sección */
 @import url(navegador.css);
-@import url(secciones.css);
+@import url(contactos.css);
+@import url(footer.css);
 
 /* Reset */
 *,
@@ -12,7 +13,6 @@
 body {
   margin: 0;
   line-height: 1.5;
-
   background: #353434;
 }
 
@@ -21,6 +21,7 @@ h2,
 h3,
 p {
   margin: 0;
+  color: white;
 }
 
 /*tipográfica*/
