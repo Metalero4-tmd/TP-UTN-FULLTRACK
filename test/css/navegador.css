@@ -1,24 +1,30 @@
 .navegador {
   display: flex;
   flex-direction: column;
-  position: sticky;
+  align-items: center;
   top: 0;
+  height: 100%;
+  overflow: hidden;
 }
 /* margen del logo */
 .logo {
-  width: 400x;
-  height: auto;
+  flex: 1;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 /*Tamaño del cabecero e imagen */
 .cabecero {
+  position: sticky;
   height: 33vh;
-  width: 100vw;
+  width: 100%;
   background-attachment: fixed;
   background-size: contain;
   background-position: center;
   border-radius: 5px;
-  border: 3px solid crimson;
+  border: 2px solid rgb(6, 77, 158);
 }
 
 /* El listado se la jeraquia  de columnas */
@@ -31,29 +37,25 @@
   padding-inline-start: 0;
   border-radius: 4px;
   margin: 0;
-
-  
+  width: 100%;
+  padding: 10px;
+  background: red;
 }
 
 /* Se quita el subrayado y el espacio de la izquierda le los elementos li */
 li {
   list-style: none;
   padding-left: 0;
-
 }
 
 /* Se quita el subrayado y y se alinea los elementos a "ancla" */
 a {
   text-decoration: none;
   text-align: initial;
-   color: #ffff;
-  
+  color: #ffff;
 }
 
-li a{
-
- display: flex;
- flex-direction: row;
-
+li a {
+  display: flex;
+  flex-direction: row;
 }
-

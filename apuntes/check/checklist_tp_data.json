@@ -26,7 +26,7 @@
     },
     {
       "texto": "Navbar con enlaces # en el header",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "1 componente de Bootstrap (máximo)",
@@ -38,7 +38,7 @@
     },
     {
       "texto": "Secciones conectadas por anclas #seccion",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "logo tienda",
@@ -98,19 +98,19 @@
   "📬 Sección 4 — Contacto": [
     {
       "texto": "Input: Nombre",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Input: Email",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Input: Teléfono",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Textarea: Comentario",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Select (selector desplegable)",
@@ -118,19 +118,19 @@
     },
     {
       "texto": "Radio o Checkbox",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Labels para cada campo",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Botón Enviar",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Botón Reset",
-      "hecho": false
+      "hecho": true
     }
   ],
   "⚙️ Consideraciones Generales": [
