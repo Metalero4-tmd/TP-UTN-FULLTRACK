@@ -2,7 +2,7 @@
   "📁 Estructura del Proyecto": [
     {
       "texto": "Crear index.html y style.css raíz",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Carpeta css/ con archivos CSS",
@@ -30,7 +30,7 @@
     },
     {
       "texto": "1 componente de Bootstrap (máximo)",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Meta tag viewport en el <head>",
@@ -70,15 +70,15 @@
   "🃏 Sección 2 — Cards": [
     {
       "texto": "Mínimo 2 cards",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Cada card: imagen + título + texto",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Botón en las cards",
-      "hecho": false
+      "hecho": true
     }
   ],
   "🖼️ Sección 3 — Galería": [
@@ -114,7 +114,7 @@
     },
     {
       "texto": "Select (selector desplegable)",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Radio o Checkbox",
