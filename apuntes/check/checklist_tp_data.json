@@ -56,11 +56,11 @@
     },
     {
       "texto": "Títulos semánticos (h1, h2...)",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Textos descriptivos",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Footer",
