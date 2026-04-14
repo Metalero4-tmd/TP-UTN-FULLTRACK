@@ -39,7 +39,7 @@
   margin: 0;
   width: 100%;
   padding: 10px;
-  background: red;
+  background: #1a1a1a;
 }
 
 /* Se quita el subrayado y el espacio de la izquierda le los elementos li */
@@ -52,7 +52,7 @@ li {
 a {
   text-decoration: none;
   text-align: initial;
-  color: #ffff;
+  color: #eee1e1;
 }
 
 li a {
