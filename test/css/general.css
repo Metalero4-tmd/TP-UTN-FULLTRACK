@@ -4,6 +4,7 @@
 @import url(footer.css);
 @import url(instrumentos-musical.css);
 @import url(home.css);
+@import url(galeria.css);
 
 /* Reset */
 *,
@@ -14,6 +15,7 @@
 
 body {
   margin: 0;
+  padding: 0;
   line-height: 1.5;
   background: #353434;
 }
@@ -23,36 +25,37 @@ h2,
 h3,
 p {
   margin: 0;
-
 }
 
 :root {
   /* Textos */
-  --color-texto:   #ffffff;
-  --color-titulo:  #ff6b6b;
-  --color-precio:  #00ff99;
+  --color-texto: #ffffff;
+  --color-titulo: #ff6b6b;
+  --color-precio: #00ff99;
 
   /* Fondos */
-  --bg-principal:  #1e2235;
-  --bg-nav:        #252b42;
-  --bg-card:       #2d3561;
+  --bg-principal: #1e2235;
+  --bg-nav: #252b42;
+  --bg-card: #2d3561;
 
   /* Acentos */
-  --color-acento:  #00c9b1;
+  --color-acento: #00c9b1;
   --color-acento2: #ffd700;
 }
 
-
 /* general.css — aplica a todo */
 
-
-body          { background: var(--bg-principal); }
-h1, h2, h3 { color: var(--color-titulo); }
-p          { color: var(--color-texto);  }
-
-
-
-
+body {
+  background: var(--bg-principal);
+}
+h1,
+h2,
+h3 {
+  color: var(--color-titulo);
+}
+p {
+  color: var(--color-texto);
+}
 
 /*tipográfica*/
 
@@ -75,4 +78,3 @@ p {
   font-family: "Nunito", sans-serif;
   font-size: clamp(1rem, 1.2vw, 1.1rem);
 }
-
