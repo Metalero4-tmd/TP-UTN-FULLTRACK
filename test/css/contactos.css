@@ -1,12 +1,9 @@
 .seccion-contacto {
-  margin-top: 50px;
-}
-
-.contacto {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  margin-top: 50px;
+   align-items: center;
 }
 
 .icono-contacto {
@@ -17,13 +14,15 @@
 
 .datos-contacto {
   color: white;
+  text-align: center;
+  padding: 10px;
 }
 
 .contacto-formulario {
-  
-  background: #363636;
-  width: 300px;
-  border-radius: 20px;
+  background: url("../logo/contacto3.svg");
+  width: 450px;
+  height: 500px;
+  border-radius: 30px;
   margin-top: 20px;
-  
+  margin-bottom: 30px;
 }
