@@ -1,10 +1,5 @@
-.seccion-contacto{
-
-  margin-top: 30px;
-}
-
-.datos {
-  color: white;
+.seccion-contacto {
+  margin-top: 50px;
 }
 
 .contacto {
@@ -18,4 +13,17 @@
   width: 25px;
   height: 25px;
   background: lawngreen;
+}
+
+.datos-contacto {
+  color: white;
+}
+
+.contacto-formulario {
+  
+  background: #363636;
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
+  
 }

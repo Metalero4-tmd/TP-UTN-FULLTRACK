@@ -4,7 +4,7 @@
   align-items: center;
   top: 0;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 /* margen del logo */
 .logo {
@@ -20,6 +20,8 @@
   position: sticky;
   height: 33vh;
   width: 100%;
+  top: 0;
+   z-index: 1000;   /* recomendado */
   background-attachment: fixed;
   background-size: contain;
   background-position: center;
@@ -42,20 +44,3 @@
   background: #1a1a1a;
 }
 
-/* Se quita el subrayado y el espacio de la izquierda le los elementos li */
-li {
-  list-style: none;
-  padding-left: 0;
-}
-
-/* Se quita el subrayado y y se alinea los elementos a "ancla" */
-a {
-  text-decoration: none;
-  text-align: initial;
-  color: #eee1e1;
-}
-
-li a {
-  display: flex;
-  flex-direction: row;
-}

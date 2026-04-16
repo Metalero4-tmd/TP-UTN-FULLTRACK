@@ -13,20 +13,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
-  background: #353434;
-}
-
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-}
-
 :root {
   /* Textos */
   --color-texto: #ffffff;
@@ -41,16 +27,41 @@ p {
   /* Acentos */
   --color-acento: #00c9b1;
   --color-acento2: #ffd700;
+
+  --fs-h1: clamp(2.5rem, 5vw, 3.5rem);
+  --fs-h2: clamp(2rem, 4vw, 3rem);
+  --fs-h3: clamp(1.75rem, 3vw, 2.4rem);
+  --fs-h4: clamp(1.5rem, 2.2vw, 2rem);
+  --fs-h5: clamp(1.25rem, 2vw, 1.6rem);
+  --fs-h6: clamp(1rem, 1.5vw, 1.3rem);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+
+  background: var(--bg-principal);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 /* general.css — aplica a todo */
 
-body {
-  background: var(--bg-principal);
-}
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   color: var(--color-titulo);
 }
 p {
@@ -61,20 +72,57 @@ p {
 
 h1 {
   font-family: "Raleway", sans-serif;
-  font-size: clamp(2.2rem, 3vw, 3rem);
+  font-size: var(--fs-h1);
 }
 
 h2 {
   font-family: "Raleway", sans-serif;
-  font-size: clamp(1.6rem, 2.2vw, 2.4rem);
+  font-size: var(--fs-h2);
 }
 
 h3 {
   font-family: "Raleway", sans-serif;
-  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
+  font-size: var(--fs-h3);
+}
+
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: var(--fs-h4);
+}
+
+h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: var(--fs-h5);
+}
+
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-size: var(--fs-h6);
 }
 
 p {
   font-family: "Nunito", sans-serif;
   font-size: clamp(1rem, 1.2vw, 1.1rem);
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Se quita el subrayado y el espacio de la izquierda le los elementos li */
+li {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Se quita el subrayado y y se alinea los elementos a "ancla" */
+a {
+  text-decoration: none;
+  text-align: initial;
+  color: #eee1e1;
+}
+
+li a {
+  display: flex;
+  flex-direction: row;
 }
