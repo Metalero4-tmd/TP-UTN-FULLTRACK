@@ -1,37 +1,29 @@
-.seccion-contacto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 50px;
-   align-items: center;
-}
-
 .icono-contacto {
   width: 25px;
   height: 25px;
   background: lawngreen;
 }
-
-.datos-contacto {
-  color: white;
-  text-align: center;
-  padding: 10px;
+ 
+/* Padre va el flex */
+.seccion-contacto {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.contacto-formulario {
-  background: url("../logo/contacto3.svg");
-  width: 450px;
-  height: 500px;
+/* formulario-contenedor lo usás para estilar el formulario en sí (padding, border, background, etc.), no para centrarlo.
+*/
+.formulario-contenedor {
+  background: url("../logo/contacto2.svg");
+  background-size: cover;
   border-radius: 30px;
-  margin-top: 20px;
+  width: 400px;
+  height: 500px;
   margin-bottom: 30px;
 }
 
-.sexo{
-
-
-  border-radius: 7px ;
-  border: 2px solid crimson;
-  
-   
+.formulario-grupo {
+  color: white;
+  text-align: center;
+  padding: 10px;
 }

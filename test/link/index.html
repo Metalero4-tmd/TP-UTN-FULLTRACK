@@ -371,28 +371,29 @@
       </section>
 
       <section id="contacto" class="seccion-contacto">
-        <form action="" class="contacto-formulario">
-          <div class="datos-contacto">
-            <h6>Ingreso de datos</h4>
-            <div class="datos-contacto">
+
+        <form action="/formulario-contacto" method="POST">
+          
+          <div class="formulario-contenedor">
+            <h5>Ingreso de datos</h5>
+            <div class="formulario-grupo">
               <label for="nombre">Nombre</label>
-              <input type="text" name="nombre" id="nombre" />
+              <input type="text" name="nombre" id="nombre" required />
             </div>
-            <div class="datos-contacto">
+            <div class="formulario-grupo">
               <label for="apellido">Apellido</label>
-              <input type="text" name="apellido" id="apellido" />
+              <input type="text" name="apellido" id="apellido" required/>
             </div>
-            <div class="datos-contacto">
+            <div class="formulario-grupo">
               <label for="email">Correo </label>
-              <input type="email" name="email" id="email" />
+              <input type="email" name="email" id="email" required/>
             </div>
-            <div class="datos-contacto">
+            <div class="formulario-grupo">
               <label for="telefono">Telefono</label>
-              <input type="tel" name="telefono" id="telefono" />
+              <input type="tel" name="telefono" id="telefono" pattern="[0-9]{7,15}"/>
             </div>
-            <div class="datos-contacto">
-              <label for="nacionalidad">Nacionalidad
-                 </label>
+            <div class="formulario-grupo">
+              <label for="nacionalidad">Nacionalidad</label>
                 <select name="nacionalidad" id="nacionalidad">
                   <option value="" selected disabled>Selecciona</option>
                   <option value="argentina">Argentina</option>
@@ -401,11 +402,11 @@
                 </select>
              
             </div>
+           
+           <fieldset class="formulario-grupo">
+                 <legend >Sexo</legend>
 
-            <div class="datos-contacto sexo">
-                 <p>Sexo</p>
-
-              <label for="masculino">
+              <label>
                 <input
                   type="radio"
                   name="sexo"
@@ -424,16 +425,17 @@
                 />
                 Femenino
               </label>
-            </div>
-            <div class="datos-contacto">
-               <label for="comentario">Ingrese un comentario ("Opcional")</label>
+         </fieldset>
+
+            <div class="formulario-grupo">
+               <label for="comentario" >Ingrese un comentario ("Opcional")</label>
                <textarea name="comentario" id="comentario"></textarea>
             </div>
-            <div class="datos-contacto">
+            <div class="formulario-grupo">
               <button type="submit">Enviar</button>
               <button type="reset">Reset</button>
             </div>
-          </div>
+           </div>
         </form>
       </section>
        <footer class="footer">
