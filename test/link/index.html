@@ -393,37 +393,40 @@
               <input type="tel" name="telefono" id="telefono" pattern="[0-9]{7,15}"/>
             </div>
             <div class="formulario-grupo">
-              <label for="nacionalidad">Nacionalidad</label>
-                <select name="nacionalidad" id="nacionalidad">
-                  <option value="" selected disabled>Selecciona</option>
-                  <option value="argentina">Argentina</option>
-                  <option value="brasil">Brasil</option>
-                  <option value="uruguay">Uruguay</option>
+              <label for="categoria">Motivo de contacto</label>
+                <select name="categoria" id="categoria">
+                  <option value="" selected disabled>Seleccione una opción</option>
+                  <option value="soporte tecnico">Soporte Técnico</option>
+                  <option value="ventas">Ventas</option>
+                  <option value="reclamos">Reclamos</option>
+                  <option value="administracion">Administración</option>
                 </select>
              
             </div>
            
            <fieldset class="formulario-grupo">
-                 <legend >Sexo</legend>
+               <legend >¿Es cliente?</legend>
 
-              <label>
+              <label for="cliente-si">
                 <input
                   type="radio"
-                  name="sexo"
-                  id="masculino"
-                  value="masculino"
+                  name="cliente"
+                  id="cliente-si"
+                  value="cliente-si"
+                  required
                 />
-                Masculino
+                Es cliente
               </label>
 
-              <label for="femenino">
+              <label  for="cliente-no">
                 <input
                   type="radio"
-                  name="sexo"
-                  id="femenino"
-                  value="femenino"
+                  name="cliente"
+                  id="cliente-no"
+                  value="cliente-no"
+               
                 />
-                Femenino
+                No es cliente
               </label>
          </fieldset>
 

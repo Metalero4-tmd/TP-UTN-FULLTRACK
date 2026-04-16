@@ -51,7 +51,13 @@ main {
 }
 
 section {
-  scroll-margin-top: 33vh;
+  /*si el nav queda bloqueado se usa, scroll-margin-top
+  para que valla al principio otra seccion y no en cualquier lado
+  */
+  scroll-margin-top: 36vh;
+  /*margen de distancia entre arriba  y abajo y espacio 0 en los laterales */
+  margin: 2rem 0;
+ 
 }
 
 h1,
