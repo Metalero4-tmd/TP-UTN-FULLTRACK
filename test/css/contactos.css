@@ -3,12 +3,12 @@
   height: 25px;
   background: lawngreen;
 }
- 
+
 /* Padre va el flex */
 .seccion-contacto {
   margin-top: 50px;
   display: flex;
-  justify-content: center;
+ justify-content: center;
   align-items: center;
 }
 /* formulario-contenedor lo usás para estilar el formulario en sí (padding, border, background, etc.), no para centrarlo.
@@ -17,8 +17,8 @@
   background: url("../logo/contacto2.svg");
   background-size: cover;
   border-radius: 30px;
-  width: 400px;
-  height: 500px;
+  width: 420px;
+  height: 560px;
   margin-bottom: 30px;
 }
 
@@ -26,4 +26,20 @@
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+.formulario-comentario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  width: 16rem;
+  height: 80px;
+}
+
+.formulario-contenedor {
+  text-align: center;
 }

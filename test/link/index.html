@@ -375,7 +375,7 @@
         <form action="/formulario-contacto" method="POST">
           
           <div class="formulario-contenedor">
-            <h5>Ingreso de datos</h5>
+              <h6>Ingreso de datos</h6>
             <div class="formulario-grupo">
               <label for="nombre">Nombre</label>
               <input type="text" name="nombre" id="nombre" required />
@@ -393,12 +393,12 @@
               <input type="tel" name="telefono" id="telefono" pattern="[0-9]{7,15}"/>
             </div>
             <div class="formulario-grupo">
-              <label for="categoria">Motivo de contacto</label>
+              <label for="categoria">Consulta?</label>
                 <select name="categoria" id="categoria">
                   <option value="" selected disabled>Seleccione una opción</option>
                   <option value="soporte tecnico">Soporte Técnico</option>
                   <option value="ventas">Ventas</option>
-                  <option value="reclamos">Reclamos</option>
+                  <option value="reclamo">Reclamo</option>
                   <option value="administracion">Administración</option>
                 </select>
              
@@ -424,19 +424,20 @@
                   name="cliente"
                   id="cliente-no"
                   value="cliente-no"
-               
+             
                 />
                 No es cliente
               </label>
          </fieldset>
-
-            <div class="formulario-grupo">
-               <label for="comentario" >Ingrese un comentario ("Opcional")</label>
-               <textarea name="comentario" id="comentario"></textarea>
+               
+            <div class="formulario-grupo formulario-comentario">
+                <label for="comentario">comentario</label>
+                 <textarea name="comentario" id="comentario" ></textarea>
+                     
             </div>
             <div class="formulario-grupo">
               <button type="submit">Enviar</button>
-              <button type="reset">Reset</button>
+              <button type="reset">Borrar</button>
             </div>
            </div>
         </form>
