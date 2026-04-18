@@ -84,15 +84,15 @@
   "🖼️ Sección 3 — Galería": [
     {
       "texto": "Mínimo 7 imágenes en grilla",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Título de sección",
-      "hecho": false
+      "hecho": true
     },
     {
       "texto": "Layout con Grid o Flex",
-      "hecho": false
+      "hecho": true
     }
   ],
   "📬 Sección 4 — Contacto": [

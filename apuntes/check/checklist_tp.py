@@ -43,7 +43,7 @@ CHECKLIST_INICIAL = {
     "🖼️ Sección 3 — Galería": [
         "Mínimo 7 imágenes en grilla",
         "Título de sección",
-        "Layout con Grid o Flex",
+        "Layout con Grid o Flex - se uso carrusel",
     ],
     "📬 Sección 4 — Contacto": [
         "Input: Nombre",

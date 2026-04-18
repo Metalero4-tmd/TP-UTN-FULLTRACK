@@ -8,7 +8,7 @@
 .seccion-contacto {
   margin-top: 50px;
   display: flex;
- justify-content: center;
+  justify-content: center;
   align-items: center;
 }
 /* formulario-contenedor lo usás para estilar el formulario en sí (padding, border, background, etc.), no para centrarlo.
@@ -42,4 +42,13 @@ textarea {
 
 .formulario-contenedor {
   text-align: center;
+}
+
+.formulario-grupo input {
+  border-radius: 8px;
+  width: 11rem;
+}
+
+.formulario-grupo label {
+  width: 60px;
 }
