@@ -44,11 +44,22 @@ textarea {
   text-align: center;
 }
 
-.formulario-grupo input {
-  border-radius: 8px;
+.input-text-form {
+  border-radius: 20px;
   width: 11rem;
 }
 
-.formulario-grupo label {
-  width: 60px;
+.fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-opcion {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.label-text-form{
+  width: 5rem;
 }

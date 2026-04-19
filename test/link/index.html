@@ -205,7 +205,7 @@
           </div>
           <div class="prom-instrumento">
             <p>
-               <span class="valor-antes">$770.000</span> Ahora 
+              <span class="valor-antes">$770.000</span> Ahora
               <span class="valor-instrumento">$700.000</span>
             </p>
             <button type="button" class="comprar-instrumentos">Comprar</button>
@@ -235,17 +235,17 @@
 
           <div class="prom-instrumento">
             <p>
-              <span class="valor-antes">$6.666.000</span> Ahora 
+              <span class="valor-antes">$6.666.000</span> Ahora
               <span class="valor-instrumento">$6.000.000</span>
             </p>
-              <button type="button" class="comprar-instrumentos">Comprar</button>
+            <button type="button" class="comprar-instrumentos">Comprar</button>
           </div>
         </div>
         <!--  card3  -->
         <div class="instrumentos">
           <div class="advertencia-producto">
             <h6>
-             
+
               <span class="badge text-bg-danger">Agotado</span>
             </h6>
           </div>
@@ -265,18 +265,18 @@
 
           <div class="prom-instrumento">
             <p>
-              
+
               <span class="valor-instrumento">$1.670.000</span>
             </p>
             <button type="button" class="comprar-instrumentos">Comprar</button>
           </div>
         </div>
 
-         <!--  card4  -->
+        <!--  card4  -->
         <div class="instrumentos">
           <div class="advertencia-producto">
             <h6>
-             
+
               <span class="badge bg-success">-20% OFF</span>
               <span class="badge bg-warning text-dark">Último!</span>
             </h6>
@@ -297,8 +297,8 @@
 
           <div class="prom-instrumento">
             <p>
-               <span class="valor-antes">$7.056.768,4</span> Ahora 
-              
+              <span class="valor-antes">$7.056.768,4</span> Ahora
+
               <span class="valor-instrumento">$6.415.244</span>
             </p>
             <button type="button" class="comprar-instrumentos" disabled>Comprar</button>
@@ -328,21 +328,21 @@
           </div>
 
           <div class="prom-instrumento">
-            
-            <p> <span class="valor-antes">$1.540.000</span> Ahora 
-               <span class="valor-instrumento">$1.400.000</span>
+
+            <p> <span class="valor-antes">$1.540.000</span> Ahora
+              <span class="valor-instrumento">$1.400.000</span>
             </p>
-           <button type="button" class="comprar-instrumentos">Comprar</button>
+            <button type="button" class="comprar-instrumentos">Comprar</button>
           </div>
         </div>
-        
-         <!--  card6  -->
+
+        <!--  card6  -->
         <div class="instrumentos">
           <div class="advertencia-producto">
             <h6>
 
               <span class="badge text-bg-danger">Agotado</span>
-         
+
             </h6>
           </div>
 
@@ -361,14 +361,14 @@
 
           <div class="prom-instrumento">
             <p>
-              
+
               <span class="valor-instrumento">$950.000</span>
             </p>
             <button type="button" class="comprar-instrumentos" disabled>Comprar</button>
           </div>
         </div>
 
-           <!--  card7  -->
+        <!--  card7  -->
         <div class="instrumentos">
           <div class="advertencia-producto">
             <h6>
@@ -391,13 +391,13 @@
           </div>
 
           <div class="prom-instrumento">
-            <p> <span class="valor-antes">$2.000.000</span> Ahora 
+            <p> <span class="valor-antes">$2.000.000</span> Ahora
               <span class="valor-instrumento">$1.900.000</span>
             </p>
-           
-             <button type="button" class="comprar-instrumentos">Comprar</button>
+
+            <button type="button" class="comprar-instrumentos">Comprar</button>
           </div>
-         </div>
+        </div>
       </div> <!-- seccion-instrumentos -->
     </section>
 
@@ -408,25 +408,25 @@
         <div class="formulario-contenedor">
           <h6>Ingreso de datos</h6>
           <div class="formulario-grupo">
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" required />
+            <label for="nombre" class="label-text-form">Nombre</label>
+            <input type="text" name="nombre" id="nombre" required class="input-text-form" />
           </div>
           <div class="formulario-grupo">
-            <label for="apellido">Apellido</label>
-            <input type="text" name="apellido" id="apellido" required />
+            <label for="apellido" class="label-text-form" >Apellido</label>
+            <input type="text" name="apellido" id="apellido" required  class="input-text-form"/>
+          </div>
+          <div class="formulario-grupo" >
+            <label for="email" class="label-text-form">Correo </label>
+            <input type="email" name="email" id="email" required class="input-text-form" />
           </div>
           <div class="formulario-grupo">
-            <label for="email">Correo</label>
-            <input type="email" name="email" id="email" required />
+            <label for="telefono" class="label-text-form">Telefono</label>
+            <input type="tel" name="telefono" id="telefono" pattern="[0-9]{7,15}" class="input-text-form" />
           </div>
           <div class="formulario-grupo">
-            <label for="telefono">Telefono</label>
-            <input type="tel" name="telefono" id="telefono" pattern="[0-9]{7,15}" />
-          </div>
-          <div class="formulario-grupo">
-            <label for="categoria">Consulta?</label>
-            <select name="categoria" id="categoria">
-              <option value="" selected disabled>Seleccione una opción</option>
+            <label for="categoria" class="label-text-form" >Consulta?</label>
+            <select name="categoria" id="categoria" >
+              <option value="" selected disabled>Seleccione</option>
               <option value="soporte tecnico">Soporte Técnico</option>
               <option value="ventas">Ventas</option>
               <option value="reclamo">Reclamo</option>
@@ -435,18 +435,19 @@
 
           </div>
 
-          <fieldset class="formulario-grupo">
+          <fieldset class="formulario-grupo fieldset">
             <legend>¿Es cliente?</legend>
-
-            <label for="cliente-si">
+            <div class="formulario-opcion">
+               <label for="cliente-si">Es cliente</label>
               <input type="radio" name="cliente" id="cliente-si" value="cliente-si" required />
-              Es cliente
-            </label>
+             
+            </div>
+            <div class="formulario-opcion">
+               <label for="cliente-no">No es cliente</label>
+              <input type="radio" name="cliente" id="cliente-no" value="cliente-no" required />
+              
+            </div>
 
-            <label for="cliente-no">
-              <input type="radio" name="cliente" id="cliente-no" value="cliente-no" />
-              No es cliente
-            </label>
           </fieldset>
 
           <div class="formulario-grupo formulario-comentario">
