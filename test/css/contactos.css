@@ -18,7 +18,7 @@
   background-size: cover;
   border-radius: 30px;
   width: 420px;
-  height: 560px;
+  height: 580px;
   margin-bottom: 30px;
 }
 
@@ -60,6 +60,14 @@ textarea {
   margin: auto;
 }
 
-.label-text-form{
+.label-text-form {
   width: 5rem;
+}
+
+.formulario-radio {
+  margin: 10px;
+}
+
+.label-radio {
+  width: 6rem;
 }
