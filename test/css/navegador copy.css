@@ -8,11 +8,10 @@
 /* margen del logo */
 .logo {
   
-  max-height: 60%;   /* ocupa solo parte del cabecero */
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  display: block;
+  width: 100%;
+  margin: auto;
+  flex: 1; 
+  height: 100%; 
 }
 
 /*Tamaño del cabecero e imagen */
@@ -62,12 +61,8 @@
  
 .listado-ul svg,
 .icono-contacto {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
 }
   
-.listado-ul li a span {
-    font-size: 12px;
-  }
-
 }
