@@ -6,7 +6,7 @@
 
 /* Padre va el flex */
 .seccion-contacto {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,13 +14,13 @@
 /* formulario-contenedor lo usás para estilar el formulario en sí (padding, border, background, etc.), no para centrarlo.
 */
 .formulario-contenedor {
-  background: url("../logo/contacto2.svg");
+  background: rgb(44, 43, 43);
   background-size: cover;
   border-radius: 30px;
-  width: 420px;
-  height: 580px;
-  margin-bottom: 30px;
-    text-align: center;
+  width: 300px;
+  height: 470px;
+  margin-bottom: 10px;
+   text-align: center;
 }
 
 .formulario-grupo {
@@ -38,7 +38,7 @@
 
 textarea {
   width: 16rem;
-  height: 80px;
+  height: 70px;
 }
 
 .input-text-form {

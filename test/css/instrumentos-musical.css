@@ -1,22 +1,23 @@
 .seccion-instrumentos {
   margin-top: 30px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   padding: 0 1.5em;
   gap: 10px;
 }
 
 .instrumentos {
   border: 2px solid cyan;
-  width: 100%;
+  width: 90%;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .imagenes-instrumentos {
   width: 100%;
-  height: 220px;
+  height: 160px;
   object-fit: contain; /* para que no se deforme */
 }
 
@@ -57,7 +58,7 @@
 }
 
 .comprar-instrumentos button {
-  padding: 15px 32px;
+  padding: 10px 20px;
 }
 
 .comprar-instrumentos {
@@ -67,13 +68,34 @@
   width: 100%;
 }
 
-.titulo-seccion-card{
-
- text-align: center;
-
+.titulo-seccion-card {
+  text-align: center;
 }
 
 .comprar-instrumentos:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (max-width: 480px) {
+  .instrumentos {
+    width: 70%;
+  }
+  .instrumento-detalle h6 {
+   font-size: 12px;
+      
+  }
+
+  .instrumento-detalle p{
+   font-size: 12px;
+      
+  }
+   .valor-antes{
+   
+      font-size: 13px;
+   } 
+   .valor-instrumento{
+    font-size: 10px;
+   }
+
 }
