@@ -4,15 +4,16 @@
   align-items: center;
   top: 0;
   height: 100%;
-  /* overflow: hidden; */
 }
 /* margen del logo */
 .logo {
-  flex: 1;
-  width: auto;
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
+  
+  width: 100%;
+  margin: auto;
+  flex: 1; 
+  height: 100%;
+
+
 }
 
 /*Tamaño del cabecero e imagen */
@@ -21,13 +22,12 @@
   height: 33vh;
   width: 100%;
   top: 0;
-   z-index: 1000;   /* recomendado */
+  z-index: 1000; /* recomendado */
   background-attachment: fixed;
   background-size: contain;
   background-position: center;
   border-radius: 5px;
-  border: 2px solid rgb(6, 77, 158);
-  
+  border: 2px solid rgb(4, 242, 111);
 }
 
 /* El listado se la jeraquia  de columnas */
@@ -41,7 +41,30 @@
   border-radius: 4px;
   margin: 0;
   width: 100%;
-  padding: 10px;
+  padding: 2px;
   background: #1a1a1a;
+}
+
+/*Mobile devices*/
+@media (max-width: 480px) {
+  .cabecero{
+   
+     height: auto;
+  }
+  .navegador {
+    justify-content: center;
+  }
+
+  .listado-ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+ 
+.listado-ul svg,
+.icono-contacto {
+  width: 18px;
+  height: 18px;
+}
   
 }

@@ -16,19 +16,18 @@
 
 /* IMAGENES (UNA SOLA DEFINICIÓN, SIN CONFLICTO) */
 .carousel-item img {
-   width: 100%;
-  height: 500px;
+  width: 100%;
+  height: 350px;
   object-fit: contain;
 }
 
 /* BOTONES CENTRADOS Y CERCANOS */
 .carousel-control-prev,
 .carousel-control-next {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   background-color: rgba(100, 224, 141, 0.4);
   border-radius: 50%;
-
   top: 50%;
   transform: translateY(-50%);
 }
@@ -36,17 +35,25 @@
 .carousel-caption {
   background: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-
-
 }
 
 .carousel-caption h5 {
   color: var(--color-tit-photo-carousel);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .carousel-caption p {
-  color: var(--color-tit-desc-carousel); /* verde moderno (combina con tus flechas) */
+  color: var(
+    --color-tit-desc-carousel
+  ); /* verde moderno (combina con tus flechas) */
   font-size: 1rem;
 }
 
+@media (max-width: 480px) {
+  .titulo-galeria p {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  
+}

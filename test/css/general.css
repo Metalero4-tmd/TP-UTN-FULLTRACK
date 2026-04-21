@@ -22,8 +22,10 @@
   --color-tit-desc-carousel:#22c55e;
 
   /* Fondos */
-  --bg-principal: #1e2235;
-  --bg-nav: #252b42;
+  /* --bg-principal: #1e2235; */
+    --bg-principal: #1e2235;
+   --bg-nav: #252b42; 
+
   --bg-card: #2d3561;
 
   /* Acentos */

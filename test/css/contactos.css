@@ -1,7 +1,7 @@
 .icono-contacto {
-  width: 25px;
-  height: 25px;
-  background: lawngreen;
+  width: 18px;
+  height: 18px;
+  background: white;
 }
 
 /* Padre va el flex */
@@ -20,12 +20,13 @@
   width: 420px;
   height: 580px;
   margin-bottom: 30px;
+    text-align: center;
 }
 
 .formulario-grupo {
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 3px;
 }
 
 .formulario-comentario {
@@ -38,10 +39,6 @@
 textarea {
   width: 16rem;
   height: 80px;
-}
-
-.formulario-contenedor {
-  text-align: center;
 }
 
 .input-text-form {
