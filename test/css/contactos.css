@@ -1,32 +1,33 @@
-.icono-contacto {
-  width: 16px;
-  height: 16px;
-  background: white;
+.contacto-vista {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+
 }
 
-/* Padre va el flex */
-.seccion-contacto {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/* formulario-contenedor lo usás para estilar el formulario en sí (padding, border, background, etc.), no para centrarlo.
-*/
 .formulario-contenedor {
   background: rgb(44, 43, 43);
-  background-size: cover;
   border-radius: 30px;
   width: 300px;
-  height: 470px;
-  margin-bottom: 10px;
-   text-align: center;
+  height: auto;
 }
-
+.titulo-contacto {
+  text-align: center;
+}
 .formulario-grupo {
   color: white;
   text-align: center;
   padding: 3px;
+}
+
+.input-text-form {
+  width: 12rem;
+  text-align: left;
+}
+
+.imagen-contacto {
+  width: 300px;
 }
 
 .formulario-comentario {
@@ -36,35 +37,46 @@
   align-items: center;
 }
 
-textarea {
-  width: 16rem;
-  height: 70px;
+/* Mobile */
+@media (max-width: 480px) {
+  .contacto-vista {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formulario-contenedor {
+    width: 100%;
+  }
+
+  .imagen-contacto {
+    width: 80%;
+  }
 }
 
-.input-text-form {
-  border-radius: 20px;
-  width: 11rem;
+@media (min-width: 481px) and (max-width: 768px) {
+  .contacto-vista {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-.fieldset {
-  display: flex;
-  flex-direction: column;
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contacto-vista {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-.formulario-opcion {
-  display: flex;
-  align-items: center;
-  margin: auto;
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .contacto-vista {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-.label-text-form {
-  width: 5rem;
-}
-
-.formulario-radio {
-  margin: 10px;
-}
-
-.label-radio {
-  width: 6rem;
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .contacto-vista {
+    flex-direction: column;
+    align-items: center;
+  }
 }

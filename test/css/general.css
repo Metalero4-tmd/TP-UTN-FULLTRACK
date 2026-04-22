@@ -61,7 +61,7 @@ section {
   scroll-margin-top: 33vh;
   /*margen de distancia entre arriba  y abajo y espacio 0 en los laterales */
   margin: 0;
- 
+  margin-bottom:1rem;
 }
 
 h1,
@@ -70,7 +70,7 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,legend,input {
   margin: 0;
 }
 
@@ -81,7 +81,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,legend {
   color: var(--color-titulo);
 }
 p {
@@ -126,6 +126,11 @@ p {
 }
 
 span {
+  font-family: "Nunito", sans-serif;
+  font-size: clamp(1rem, 1.2vw, 1.1rem);
+}
+
+legend {
   font-family: "Nunito", sans-serif;
   font-size: clamp(1rem, 1.2vw, 1.1rem);
 }

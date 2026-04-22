@@ -14,19 +14,20 @@
 
   <!-- Importaciones de todos los archivos Css -->
 
-  <link rel="stylesheet" href="../css/bootstrap.min.css" />
-  <link rel="stylesheet" href="../css/general.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/general.css" />
   <title>TDM Music - Pantalla Principal</title>
 </head>
 
 <body>
   <header class="cabecero">
     <nav class="navegador">
-      <img src="../logo/logo2.svg" alt="logo" class="logo" />
+
+      <img src="./logo/logo2.svg" class="logo" />
 
       <ul class="listado-ul">
         <li>
-          <a href="index.html#inicio-seccion">
+          <a href="#inicio-seccion">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="house-door-fill"
               viewBox="0 0 16 16">
               <path
@@ -37,7 +38,7 @@
         </li>
 
         <li>
-          <a href="#card">
+          <a href="instumentos-musicales.html">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
               class="bi bi-file-music-fill" viewBox="0 0 16 16">
               <path
@@ -47,7 +48,7 @@
           </a>
         </li>
         <li>
-          <a href="index.html#galeria">
+          <a href="galeria.html">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="currentColor" class="bi bi-camera2"
               viewBox="0 0 16 16">
               <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4" />
@@ -59,7 +60,7 @@
         </li>
         <li>
           <a href="contacto.html">
-             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
               class="bi bi-person-rolodex" viewBox="0 0 16 16">
               <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
               <path
@@ -71,209 +72,22 @@
         </li>
       </ul>
     </nav>
-  </header>
   <main>
-       <!-- Card -->
-    <section id="card" class="card-productos">
-      <div class="titulo-seccion-card">
-        <h2>Instrumentos musicales</h2>
+    <section class="home" id="inicio-seccion">
+      <div class="titulo-principal-home">
+        <h2>Bienvenido a TDM Music</h2>
       </div>
-      <div class="seccion-instrumentos">
-
-        <!--  card1  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-              <span class="badge bg-success">-10% OFF</span>
-              <span class="badge bg-warning text-dark">Último!</span>
-
-            </h6>
-          </div>
-
-          <div class="imagenes-centrado">
-            <img src="../img/foto1.jpg" alt="card srmd200" class="imagenes-instrumentos" />
-          </div>
-
-
-          <div class="instrumento-detalle">
-            <h6>Ibanez</h6>
-            <p>SRMD200</p>
-           </div>
-          <div class="prom-instrumento">
-            <p>
-              <span class="valor-antes">$770.000 </span>Ahora 
-              <span class="valor-instrumento">$700.000</span>
-            </p>
-            <button type="button" class="comprar-instrumentos">Comprar</button>
-          </div>
-        </div>
-        <!--  card2  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-              <span class="badge bg-success">-10% OFF</span>
-              <span class="badge bg-success">Nuevo</span>
-            </h6>
-          </div>
-
-          <div class="imagenes-centrado">
-            <img src="../img/foto4.jpg" alt="card srmd200" class="imagenes-instrumentos" />
-          </div>
-
-          <div class="instrumento-detalle">
-            <h6>Gibson</h6>
-            <p>Les Paul Studio</p>
-          </div>
-
-          <div class="prom-instrumento">
-            <p>
-              <span class="valor-antes">$6.666.000</span> Ahora
-              <span class="valor-instrumento">$6.000.000</span>
-            </p>
-            <button type="button" class="comprar-instrumentos">Comprar</button>
-          </div>
-        </div>
-        <!--  card3  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-
-              <span class="badge text-bg-danger">Agotado</span>
-            </h6>
-          </div>
-
-          <div class="imagenes-centrado">
-            <img src="../img/foto2.jpg" alt="card SG" class="imagenes-instrumentos" />
-          </div>
-
-          <div class="instrumento-detalle">
-            <h6>Yamaha</h6>
-            <p>TRBX505</p>
-          </div>
-
-          <div class="prom-instrumento">
-            <p>
-
-              <span class="valor-instrumento">$1.670.000</span>
-            </p>
-            <button type="button" class="comprar-instrumentos" disabled>Comprar</button>
-          </div>
-        </div>
-
-        <!--  card4  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-
-              <span class="badge bg-success">-20% OFF</span>
-              <span class="badge bg-warning text-dark">Último!</span>
-            </h6>
-          </div>
-
-          <div class="imagenes-centrado">
-            <img src="../img/foto5.jpg" alt="card SG" class="imagenes-instrumentos" />
-          </div>
-
-          <div class="instrumento-detalle">
-            <h6>Gibson</h6>
-            <p>SG</p>
-          </div>
-
-          <div class="prom-instrumento">
-            <p>
-              <span class="valor-antes">$7.056.768,4</span> Ahora
-
-              <span class="valor-instrumento">$6.415.244</span>
-            </p>
-            <button type="button" class="comprar-instrumentos">Comprar</button>
-          </div>
-        </div>
-
-        <!--  card5  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-
-              <span class="badge bg-success">- 10% OFF</span>
-            </h6>
-          </div>
-
-          <div class="imagenes-centrado">
-            <img src="../img/foto3.jpg" alt="card SG" class="imagenes-instrumentos" />
-          </div>
-
-          <div class="instrumento-detalle">
-            <h6>Tama</h6>
-            <p>ST52H4</p>
-          </div>
-
-          <div class="prom-instrumento">
-
-            <p> <span class="valor-antes">$1.540.000</span> Ahora
-              <span class="valor-instrumento">$1.400.000</span>
-            </p>
-            <button type="button" class="comprar-instrumentos">Comprar</button>
-          </div>
-        </div>
-
-        <!--  card6  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-
-              <span class="badge text-bg-danger">Agotado</span>
-
-            </h6>
-          </div>
-
-          <div class="imagenes-centrado">
-            <img src="../img/foto7.jpg" alt="card SG" class="imagenes-instrumentos" />
-          </div>
-
-          <div class="instrumento-detalle">
-            <h6>JetGuitars</h6>
-            <p>JET JS-500 BLS</p>
-          </div>
-
-          <div class="prom-instrumento">
-            <p>
-
-              <span class="valor-instrumento">$950.000</span>
-            </p>
-            <button type="button" class="comprar-instrumentos" disabled>Comprar</button>
-          </div>
-        </div>
-
-        <!--  card7  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-              <span class="badge bg-success">-5% OFF</span>
-              <span class="badge bg-warning text-dark">Último!</span>
-              </h6>
-          </div>
-
-          <div class="imagenes-centrado">
-            <img src="../img/foto6.jpg" alt="card SG" class="imagenes-instrumentos" />
-          </div>
-
-          <div class="instrumento-detalle">
-            <h6>Fender</h6>
-            <p>Fender JAZZ</p>
-          </div>
-
-          <div class="prom-instrumento">
-            <p> <span class="valor-antes">$2.000.000</span> Ahora
-              <span class="valor-instrumento">$1.900.000</span>
-            </p>
-
-            <button type="button" class="comprar-instrumentos">Comprar</button>
-          </div>
-        </div>
-      </div> <!-- seccion-instrumentos -->
+      <div class="imagen-principal">
+                                  
+            
+           <video autoplay loop muted playsinline>
+          <source src="../logo/home.mp4" type="video/mp4" />
+          </video>
+    
+ 
+    
+      </div>
     </section>
-
-   
     <footer class="footer">
       <div class="footer-box">
         <h4>TDM Studio</h4>
