@@ -14,15 +14,15 @@
 
     <!-- Importaciones de todos los archivos Css -->
 
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/general.css" />
     <title>TDM Music - Pantalla Principal</title>
   </head>
 
   <body>
     <header class="cabecero">
       <nav class="navegador">
-        <img src="../logo/logo2.svg" alt="logo" class="logo" />
+        <img src="./logo/logo2.svg" alt="logo" class="logo" />
 
         <ul class="listado-ul">
           <li>
@@ -61,7 +61,7 @@
             </a>
           </li>
           <li>
-            <a href="index.html#galeria">
+            <a href="galeria.html">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -104,8 +104,6 @@
     <main>
       <section id="contacto" class="seccion-contacto">
         <div class="contacto-vista">
-  
-
           <form action="/formulario-contacto" method="POST">
             <div class="formulario-contenedor">
               <h6 class="titulo-contacto">Ingreso de datos</h6>
@@ -130,7 +128,7 @@
                 />
               </div>
               <div class="formulario-grupo">
-                <label for="email" class="label-text-form">Correo </label>
+                <label for="email" class="label-text-form">Correo</label>
                 <input
                   type="email"
                   name="email"
@@ -163,9 +161,6 @@
               <fieldset class="formulario-grupo fieldset">
                 <legend>¿Es cliente?</legend>
                 <div class="formulario-opcion">
-                  <label for="cliente-si" class="label-radio"
-                    >Es cliente
-                  </label>
                   <input
                     type="radio"
                     name="cliente"
@@ -174,11 +169,9 @@
                     required
                     class="formulario-radio"
                   />
+                  <label for="cliente-si" class="label-radio">Es cliente</label>
                 </div>
                 <div class="formulario-opcion">
-                  <label for="cliente-no" class="label-radio"
-                    >No es cliente
-                  </label>
                   <input
                     type="radio"
                     name="cliente"
@@ -187,14 +180,17 @@
                     required
                     class="formulario-radio"
                   />
+                  <label for="cliente-no" class="label-radio"
+                    >No es cliente</label
+                  >
                 </div>
               </fieldset>
 
               <div class="formulario-grupo formulario-comentario">
-                <label for="comentario">comentario</label>
+                <label for="comentario">Comentario?</label>
                 <textarea name="comentario" id="comentario"></textarea>
               </div>
-              <div class="formulario-grupo">
+              <div class="formulario-grupo button-form">
                 <button type="submit">Enviar</button>
                 <button type="reset">Borrar</button>
               </div>
@@ -203,13 +199,12 @@
 
           <div class="contenedor-imagen-contacto">
             <img
-              src="../logo/logo-contacto.jpg"
+              src="./logo/logo-contacto.jpg"
               alt="logo-contacto"
               class="imagen-contacto"
             />
           </div>
           <!--div cierre contenedor-imagen-contacto  -->
-           
         </div>
         <!--div cierre contacto-vista  -->
       </section>
@@ -224,7 +219,7 @@
         <div class="ordernar-contacto-hijo">
           <h6>Contacto</h6>
           <p>📞+54 11 6884-0202</p>
-          <p>Mail: tmd.web.dan@gmail.com</p>
+          <p>📧 tmd.web.dan@gmail.com</p>
         </div>
         <div class="ordernar-contacto-hijo">
           <a href="#">
@@ -275,6 +270,6 @@
         <p class="footer-p">Diseñado y desarrollado por Daniel Morales</p>
       </div>
     </footer>
-    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

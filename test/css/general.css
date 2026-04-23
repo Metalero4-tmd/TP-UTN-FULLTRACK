@@ -20,14 +20,16 @@
   --color-precio: #00ff99;
   --color-tit-photo-carousel:#ffffff;
   --color-tit-desc-carousel:#22c55e;
+   
 
   /* Fondos */
-  /* --bg-principal: #1e2235; */
-    --bg-principal: #1e2235;
-   --bg-nav: #252b42; 
 
-  --bg-card: #2d3561;
+    --bg-principal: #121212;
 
+   --bg-nav: #1a1a1a; 
+
+  --bg-card: #1e1e1e;
+  --bg-form: rgba(45, 53, 97, 0.4);
   /* Acentos */
   --color-acento: #00c9b1;
   --color-acento2: #ffd700;
@@ -61,7 +63,7 @@ section {
   scroll-margin-top: 33vh;
   /*margen de distancia entre arriba  y abajo y espacio 0 en los laterales */
   margin: 0;
-  margin-bottom:1rem;
+  margin-bottom:2rem;
 }
 
 h1,
@@ -155,4 +157,11 @@ a {
 li a {
   display: flex;
   flex-direction: row;
+}
+
+
+a:hover {
+  color: var(--color-acento2);  
+  background-color: transparent;
+  transition: color 0.3s ease;  
 }

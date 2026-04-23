@@ -3,14 +3,14 @@
   flex-direction: row;
   justify-content: center;
   gap: 20px;
-
 }
 
 .formulario-contenedor {
-  background: rgb(44, 43, 43);
+  background: var(--bg-form);
   border-radius: 30px;
   width: 300px;
   height: auto;
+  border: 2px solid #3f445e;
 }
 .titulo-contacto {
   text-align: center;
@@ -18,16 +18,18 @@
 .formulario-grupo {
   color: white;
   text-align: center;
-  padding: 3px;
 }
 
 .input-text-form {
-  width: 12rem;
+  width: 11rem;
   text-align: left;
+  border-radius: 10px;
+  background: #f8f9fa;
 }
 
 .imagen-contacto {
   width: 300px;
+  box-shadow: 10px 4px 8px #e6c375;
 }
 
 .formulario-comentario {
@@ -35,7 +37,37 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
+#categoria {
+  background: #f8f9fa;
+}
+
+.input-text-form {
+  border: 0;
+}
+
+.formulario-opcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.formulario-radio {
+  margin-right: 8px;
+}
+
+.label-radio {
+  width: 6rem;
+  text-align: left;
+}
+
+.label-text-form {
+  margin: 0.5rem;
+  text-align: center;
+}
+
 
 /* Mobile */
 @media (max-width: 480px) {

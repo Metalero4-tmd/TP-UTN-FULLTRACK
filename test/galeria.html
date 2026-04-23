@@ -14,15 +14,15 @@
 
   <!-- Importaciones de todos los archivos Css -->
 
-  <link rel="stylesheet" href="../css/bootstrap.min.css" />
-  <link rel="stylesheet" href="../css/general.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/general.css" />
   <title>TDM Music - Pantalla Principal</title>
 </head>
 
 <body>
   <header class="cabecero">
     <nav class="navegador">
-      <img src="../logo/logo2.svg" alt="logo" class="logo" />
+      <img src="./logo/logo2.svg" alt="logo" class="logo" />
 
       <ul class="listado-ul">
         <li>
@@ -37,7 +37,7 @@
         </li>
 
         <li>
-          <a href="#card">
+          <a href="instumentos-musicales.html">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
               class="bi bi-file-music-fill" viewBox="0 0 16 16">
               <path
@@ -47,7 +47,7 @@
           </a>
         </li>
         <li>
-          <a href="index.html#galeria">
+          <a href="#galeria">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="currentColor" class="bi bi-camera2"
               viewBox="0 0 16 16">
               <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4" />
@@ -73,208 +73,107 @@
     </nav>
   </header>
   <main>
-       <!-- Card -->
-    <section id="card" class="card-productos">
-      <div class="titulo-seccion-card">
-        <h2>Instrumentos musicales</h2>
+    
+    <!-- Galeria -->
+    <section class="seccion-galeria" id="galeria">
+      <div class="titulo-galeria">
+        <h2>Galeria</h2>
+        <p>
+          Acá podés ver parte de lo que nos apasiona: la música. Guitarras,
+          bajos y más instrumentos que combinan sonido, estilo y personalidad.
+          Explorá la galería y encontrá inspiración para tu próximo
+          instrumento.
+        </p>
       </div>
-      <div class="seccion-instrumentos">
 
-        <!--  card1  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-              <span class="badge bg-success">-10% OFF</span>
-              <span class="badge bg-warning text-dark">Último!</span>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
 
-            </h6>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+            aria-label="Slide 7"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/foto1.jpg" class="d-block w-100" alt="SRMD200" />
+            <div class="carousel-caption">
+              <h5>Modelo: SRMD200</h5>
+              <p>Bajo Ibanez</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/foto2.jpg" class="d-block w-100" alt="TBRX505" />
+            <div class="carousel-caption">
+              <h5>Modelo: TBRX505</h5>
+              <p>Bajo Yamaha</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/foto3.jpg" class="d-block w-100" alt="ST52H4" />
+            <div class="carousel-caption">
+              <h5>Modelo: ST52H4</h5>
+              <p>Batería Tama</p>
+            </div>
           </div>
 
-          <div class="imagenes-centrado">
-            <img src="../img/foto1.jpg" alt="card srmd200" class="imagenes-instrumentos" />
+          <div class="carousel-item">
+            <img src="./img/foto4.jpg" class="d-block w-100" alt="Les Paul Studio" />
+            <div class="carousel-caption">
+              <h5>Modelo: Les Paul Studio</h5>
+              <p>Guitarra Gibson</p>
+            </div>
           </div>
 
+          <div class="carousel-item">
+            <img src="./img/foto5.jpg" class="d-block w-100" alt="SG" />
+            <div class="carousel-caption">
+              <h5>Modelo: SG</h5>
+              <p>Guitarra Gibson.</p>
+            </div>
+          </div>
 
-          <div class="instrumento-detalle">
-            <h6>Ibanez</h6>
-            <p>SRMD200</p>
-           </div>
-          <div class="prom-instrumento">
-            <p>
-              <span class="valor-antes">$770.000 </span>Ahora 
-              <span class="valor-instrumento">$700.000</span>
-            </p>
-            <button type="button" class="comprar-instrumentos">Comprar</button>
+          <div class="carousel-item">
+            <img src="./img/foto6.jpg" class="d-block w-100" alt="bajo fender" />
+            <div class="carousel-caption">
+              <h5>Bajo Fender</h5>
+              <p>Standard Jazz Bass</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="./img/foto7.jpg" class="d-block w-100" alt="Jet500" />
+            <div class="carousel-caption">
+              <h5>Modelo: Jet500</h5>
+              <p>Guitarra Jet</p>
+            </div>
           </div>
         </div>
-        <!--  card2  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-              <span class="badge bg-success">-10% OFF</span>
-              <span class="badge bg-success">Nuevo</span>
-            </h6>
-          </div>
-
-          <div class="imagenes-centrado">
-            <img src="../img/foto4.jpg" alt="card srmd200" class="imagenes-instrumentos" />
-          </div>
-
-          <div class="instrumento-detalle">
-            <h6>Gibson</h6>
-            <p>Les Paul Studio</p>
-          </div>
-
-          <div class="prom-instrumento">
-            <p>
-              <span class="valor-antes">$6.666.000</span> Ahora
-              <span class="valor-instrumento">$6.000.000</span>
-            </p>
-            <button type="button" class="comprar-instrumentos">Comprar</button>
-          </div>
-        </div>
-        <!--  card3  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-
-              <span class="badge text-bg-danger">Agotado</span>
-            </h6>
-          </div>
-
-          <div class="imagenes-centrado">
-            <img src="../img/foto2.jpg" alt="card SG" class="imagenes-instrumentos" />
-          </div>
-
-          <div class="instrumento-detalle">
-            <h6>Yamaha</h6>
-            <p>TRBX505</p>
-          </div>
-
-          <div class="prom-instrumento">
-            <p>
-
-              <span class="valor-instrumento">$1.670.000</span>
-            </p>
-            <button type="button" class="comprar-instrumentos" disabled>Comprar</button>
-          </div>
-        </div>
-
-        <!--  card4  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-
-              <span class="badge bg-success">-20% OFF</span>
-              <span class="badge bg-warning text-dark">Último!</span>
-            </h6>
-          </div>
-
-          <div class="imagenes-centrado">
-            <img src="../img/foto5.jpg" alt="card SG" class="imagenes-instrumentos" />
-          </div>
-
-          <div class="instrumento-detalle">
-            <h6>Gibson</h6>
-            <p>SG</p>
-          </div>
-
-          <div class="prom-instrumento">
-            <p>
-              <span class="valor-antes">$7.056.768,4</span> Ahora
-
-              <span class="valor-instrumento">$6.415.244</span>
-            </p>
-            <button type="button" class="comprar-instrumentos">Comprar</button>
-          </div>
-        </div>
-
-        <!--  card5  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-
-              <span class="badge bg-success">- 10% OFF</span>
-            </h6>
-          </div>
-
-          <div class="imagenes-centrado">
-            <img src="../img/foto3.jpg" alt="card SG" class="imagenes-instrumentos" />
-          </div>
-
-          <div class="instrumento-detalle">
-            <h6>Tama</h6>
-            <p>ST52H4</p>
-          </div>
-
-          <div class="prom-instrumento">
-
-            <p> <span class="valor-antes">$1.540.000</span> Ahora
-              <span class="valor-instrumento">$1.400.000</span>
-            </p>
-            <button type="button" class="comprar-instrumentos">Comprar</button>
-          </div>
-        </div>
-
-        <!--  card6  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-
-              <span class="badge text-bg-danger">Agotado</span>
-
-            </h6>
-          </div>
-
-          <div class="imagenes-centrado">
-            <img src="../img/foto7.jpg" alt="card SG" class="imagenes-instrumentos" />
-          </div>
-
-          <div class="instrumento-detalle">
-            <h6>JetGuitars</h6>
-            <p>JET JS-500 BLS</p>
-          </div>
-
-          <div class="prom-instrumento">
-            <p>
-
-              <span class="valor-instrumento">$950.000</span>
-            </p>
-            <button type="button" class="comprar-instrumentos" disabled>Comprar</button>
-          </div>
-        </div>
-
-        <!--  card7  -->
-        <div class="instrumentos">
-          <div class="advertencia-producto">
-            <h6>
-              <span class="badge bg-success">-5% OFF</span>
-              <span class="badge bg-warning text-dark">Último!</span>
-              </h6>
-          </div>
-
-          <div class="imagenes-centrado">
-            <img src="../img/foto6.jpg" alt="card SG" class="imagenes-instrumentos" />
-          </div>
-
-          <div class="instrumento-detalle">
-            <h6>Fender</h6>
-            <p>Fender JAZZ</p>
-          </div>
-
-          <div class="prom-instrumento">
-            <p> <span class="valor-antes">$2.000.000</span> Ahora
-              <span class="valor-instrumento">$1.900.000</span>
-            </p>
-
-            <button type="button" class="comprar-instrumentos">Comprar</button>
-          </div>
-        </div>
-      </div> <!-- seccion-instrumentos -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
-
-   
-    <footer class="footer">
+   <footer class="footer">
       <div class="footer-box">
         <h4>TDM Studio</h4>
         <p>Tienda de instrumentos musicales y audio profesional.</p>
@@ -284,7 +183,7 @@
         <div class="ordernar-contacto-hijo">
           <h6>Contacto</h6>
           <p>📞+54 11 6884-0202</p>
-          <p>Mail: tmd.web.dan@gmail.com</p>
+          <p>📧 tmd.web.dan@gmail.com</p>
         </div>
         <div class="ordernar-contacto-hijo">
           <a href="#">
@@ -318,7 +217,7 @@
         <p class="footer-p">Diseñado y desarrollado por Daniel Morales</p>
       </div>
     </footer>
-    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
