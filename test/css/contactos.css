@@ -70,6 +70,10 @@
   margin: 0.5rem
 }
 
+.mensaje-error{
+
+color: var(--color-mensaje-error);
+}
 
 /* Mobile */
 
