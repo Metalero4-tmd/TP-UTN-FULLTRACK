@@ -18,17 +18,15 @@
   --color-texto: #ffffff;
   --color-titulo: #ff6b6b;
   --color-precio: #00ff99;
-  --color-tit-photo-carousel:#ffffff;
-  --color-tit-desc-carousel:#22c55e;
-  --color-mensaje-error:#e60c0c;
-
-   
+  --color-tit-photo-carousel: #ffffff;
+  --color-tit-desc-carousel: #22c55e;
+  --color-mensaje-error: #e60c0c;
 
   /* Fondos */
 
-    --bg-principal: #121212;
+  --bg-principal: #121212;
 
-   --bg-nav: #1a1a1a; 
+  --bg-nav: #1a1a1a;
 
   --bg-card: #1e1e1e;
   --bg-form: rgba(45, 53, 97, 0.4);
@@ -65,7 +63,7 @@ section {
   scroll-margin-top: 33vh;
   /*margen de distancia entre arriba  y abajo y espacio 0 en los laterales */
   margin: 0;
-  margin-bottom:2rem;
+  margin-bottom: 2rem;
 }
 
 h1,
@@ -74,7 +72,9 @@ h3,
 h4,
 h5,
 h6,
-p,legend,input {
+p,
+legend,
+input {
   margin: 0;
 }
 
@@ -85,7 +85,8 @@ h2,
 h3,
 h4,
 h5,
-h6,legend {
+h6,
+legend {
   color: var(--color-titulo);
 }
 p {
@@ -161,9 +162,8 @@ li a {
   flex-direction: row;
 }
 
-
 a:hover {
-  color: var(--color-acento2);  
+  color: var(--color-acento2);
   background-color: transparent;
-  transition: color 0.3s ease;  
+  transition: color 0.3s ease;
 }
