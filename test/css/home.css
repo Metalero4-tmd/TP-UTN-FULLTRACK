@@ -2,7 +2,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centra las imágenes verticalmente si sobran px */
+  align-items: center;
   justify-content: center;
   padding: 10px; 
   margin-top: 2rem;
@@ -17,9 +17,9 @@
   width: 100%;
 }
 
-
+/* Evita que se pixelen si la pantalla es muy grande */
 .imagen-principal video {
-  width: 100%; /* Evita que se pixelen si la pantalla es muy grande */
+  width: 100%; 
   height: 60vh;
   object-fit: contain;
 }
