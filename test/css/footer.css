@@ -1,3 +1,4 @@
+/*se coloca todos los titulos <h6> y <p> en columnas*/
 .footer-box {
   display: flex;
   flex-direction: column;

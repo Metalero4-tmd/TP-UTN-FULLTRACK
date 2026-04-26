@@ -59,7 +59,7 @@ formContacto.addEventListener("submit", (e) => {
     return false;
   }
 
-  //validacion del formato de los campos  email y telefono 
+  //validacion del formato de los campos  email y telefono
   if (!regexMail.test(inputEmail.value)) {
     errorMens.textContent = "El formato no es valido, debe usar @";
     return false;
@@ -67,9 +67,26 @@ formContacto.addEventListener("submit", (e) => {
 
   if (!regexTel.test(inputTel.value)) {
     errorMens.textContent = "Cantidad digitos del celular es 7 a 15";
+
     return false;
   } else {
     alert("El formulario fue enviado");
     limpiarDatos();
   }
 });
+
+formContacto.addEventListener("input", (e) => {
+
+  if (e.target.id === inputEmail.id || e.target.id === inputTel.id) {
+
+    if (esTextoValido(e.target.value)) {
+      errorMens.textContent = "";
+    }
+
+  }
+
+});
+
+const esTextoValido = (valor) => {
+  return (valor.trim() !== "")
+};

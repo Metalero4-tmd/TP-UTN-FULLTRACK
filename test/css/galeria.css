@@ -1,3 +1,4 @@
+/*crentrado del titulo*/
 .titulo-galeria h2 {
   text-align: center;
 }
@@ -6,6 +7,7 @@
   margin-top: 10px;
 }
 
+/*Dimension del tamaño del carrusel*/
 #carouselExampleCaptions {
   margin-top: 10px;
   max-width: 500px;
