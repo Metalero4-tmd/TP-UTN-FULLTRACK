@@ -8,12 +8,14 @@
   color: #ffffff;
 }
 
+/*Se da color y espacio al contendor padre*/
 .ordernar-contacto-padre {
   display: flex;
   justify-content: space-around;
   background-color: #062424;
 }
 
+/*Se ahce el responsive con mediaquerie para mobile*/
 @media (max-width: 480px) {
   .footer {
     width: 96%;

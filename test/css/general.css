@@ -42,6 +42,7 @@
   --fs-h6: clamp(1rem, 1.5vw, 1.3rem);
 }
 
+/*Se inicializa los margenes*/
 body {
   margin: 0;
   padding: 0;

@@ -1,3 +1,5 @@
+/* Se define el layout principal de la página Home
+   con contenido centrado en columna */
 .home {
   height: auto;
   display: flex;
@@ -7,7 +9,8 @@
   padding: 10px; 
   margin-top: 2rem;
 }
-
+/* Contenedor de la imagen principal, centrado en fila
+   con alineación vertical y horizontal */
 .imagen-principal {
   display: flex;
   flex-direction: row;

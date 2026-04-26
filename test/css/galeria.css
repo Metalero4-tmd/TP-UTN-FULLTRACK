@@ -2,7 +2,7 @@
 .titulo-galeria h2 {
   text-align: center;
 }
-
+/*Se da un margen mas abajo para que el titulo no este encimado con el carrusel*/
 .titulo-galeria p {
   margin-top: 10px;
 }
