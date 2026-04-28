@@ -17,25 +17,19 @@
   margin: 0 auto;
 }
 
-.imagenes-centrado{
-
+.imagenes-centrado {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   
- height: 280px;
 
-
+  height: 280px;
 }
 
-
-.imagenes-instrumentos{
-
-  width: 100%;
-  height: 100%; 
-  object-fit:contain;
-  
+.imagenes-instrumentos {
+  width: 95%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .card-productos {
@@ -93,26 +87,22 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
- /* Mediaquerie **/
+/* Mediaquerie **/
 @media (max-width: 480px) {
   .instrumentos {
     width: 70%;
   }
   .instrumento-detalle h6 {
-   font-size: 12px;
-      
+    font-size: 12px;
   }
 
-  .instrumento-detalle p{
-   font-size: 12px;
-      
+  .instrumento-detalle p {
+    font-size: 12px;
   }
-   .valor-antes{
-   
-      font-size: 13px;
-   } 
-   .valor-instrumento{
+  .valor-antes {
+    font-size: 13px;
+  }
+  .valor-instrumento {
     font-size: 10px;
-   }
-
+  }
 }
