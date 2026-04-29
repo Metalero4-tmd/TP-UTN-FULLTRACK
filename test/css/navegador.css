@@ -3,6 +3,8 @@
   position: sticky;
   width: 100%;
   top: 0;
+ background-color: var(--bg-principal);
+   z-index: 1000;
 }
 
 .listado-ul {
