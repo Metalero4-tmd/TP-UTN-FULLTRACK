@@ -16,7 +16,7 @@
 :root {
   /* Textos */
   --color-texto: #ffffff;
-  --color-titulo: #ff6b6b;
+  --color-titulo:#E6D3B3;
   --color-precio: #00ff99;
   --color-tit-photo-carousel: #ffffff;
   --color-tit-desc-carousel: #22c55e;
@@ -51,6 +51,7 @@ body {
   background: var(--bg-principal);
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 main {

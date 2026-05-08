@@ -18,7 +18,8 @@
 /*Se ahce el responsive con mediaquerie para mobile*/
 @media (max-width: 480px) {
   .footer {
-    width: 96%;
+    width: 100%;
     margin: 0 auto;
+
   }
 }

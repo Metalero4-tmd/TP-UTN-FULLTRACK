@@ -3,14 +3,16 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 40px;
+  align-content: center;
+  gap: 60px;
+
 }
 
 /*Se da el color , tamaño y radio del borde de cada campo */
 .formulario-contenedor {
   background: var(--bg-form);
   border-radius: 30px;
-  width: 320px;
+  width: 340px;
   height: auto;
   border: 2px solid #3f445e;
 }
@@ -28,11 +30,6 @@
   text-align: left;
   border-radius: 10px;
   background: #f8f9fa;
-}
-
-.imagen-contacto {
-  width: 300px;
-  box-shadow: 10px 4px 8px #e6c375;
 }
 
 .formulario-comentario {
@@ -67,34 +64,120 @@
 }
 
 .label-text-form {
-
   display: inline-block;
   width: 70px;
-  margin: 0.5rem
+  margin: 0.5rem;
 }
 
-.mensaje-error{
-
-color: var(--color-mensaje-error);
-font-style: italic;
-background: white;
+.mensaje-error {
+  color: var(--color-mensaje-error);
+  font-style: italic;
+  background: white;
+}
+.info-contacto {
+  text-align: center;
+  border: 2px solid #3f445e;
+  border-radius: 10px;
+  width: 340px;
 }
 
+.titulo-contacto-principal {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Estilizá el LINK que está dentro de .contacto-whatsapp */
+.contacto-whatsapp a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 10px;
+  background-color: #25d366;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: bold;
+  width: 80%;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+/* El SVG dentro del link, con su tamaño correcto */
+.contacto-whatsapp a svg {
+  width: 30px;
+  height: 30px;
+  fill: currentColor; /* hereda el color blanco del link */
+}
+
+.contacto-whatsapp a:hover {
+  color: white !important; /* fuerza el blanco aún en hover */
+  background-color: #1fae54; /* verde más oscuro para indicar hover */
+  transform: translateY(-2px); /* el botón "sube" 2px */
+  transition: all 0.2s ease;
+}
+.mapa-google {
+  margin-top: 1rem;
+}
+
+.mapa-google h4 {
+  margin-bottom: 1rem;
+}
+.tiempo-respuesta {
+  margin-bottom: 1rem;
+}
+
+.horarios-contacto {
+  margin-bottom: 1rem;
+}
+.direccion-empresa {
+  height: 270px;
+  width: 98%;
+}
 /* Mobile  se hace el responsive con mediaquerie*/
 
-
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .contacto-vista {
     flex-direction: column;
     align-items: center;
   }
 
   .formulario-contenedor {
-    width: 100%;
+    width: 300px;
+    border: 2px solid #3f445e;
   }
 
-  .imagen-contacto {
-    width: 80%;
+  .input-text-form {
+    width: 9rem;
+  }
+
+  .info-contacto {
+    align-items: center;
+    text-align: center;
+    padding: 8px 8px;
+    border-radius: 6px;
+  }
+  .titulo-contacto-principal h1 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .contacto-whatsapp a {
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .direccion-empresa {
+    height: 300px;
+    width: 320px;
+  }
+
+  .tiempo-respuesta h4 {
+    font-size: 1rem;
+  }
+  .mapa-google h4 {
+    font-size: 1rem;
   }
 }
 
@@ -108,7 +191,16 @@ background: white;
 @media (min-width: 769px) and (max-width: 1024px) {
   .contacto-vista {
     flex-direction: column;
+
     align-items: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px){
+
+   .contacto-vista {
+   
+    width: 98%;
   }
 }
 

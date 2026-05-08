@@ -3,8 +3,8 @@
   position: sticky;
   width: 100%;
   top: 0;
- background-color: var(--bg-principal);
-   z-index: 1000;
+  background-color: var(--bg-principal);
+  z-index: 1000;
 }
 
 .listado-ul {
@@ -15,34 +15,28 @@
 }
 .logo {
   width: 100%;
-
 }
 
-.imagen-principal{
-
+.imagen-principal {
   width: 80%;
 }
 .imagen-principal img {
-  width: 50%; 
-
+  width: 50%;
 }
 
-.home{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items:center;
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-height: 33vh;
 }
-.titulo-principal-home{
-
+.titulo-principal-home {
   text-align: center;
-
 }
 /* Mediaquerie Mobile */
 @media (min-width: 0px) and (max-width: 480px) {
-
-section {
+  section {
     scroll-margin-top: 15vh;
   }
 

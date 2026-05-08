@@ -21,11 +21,11 @@
 }
 
 /* Evita que se pixelen si la pantalla es muy grande */
-.imagen-principal video {
+ .imagen-principal video {
   width: 100%; 
   height: 60vh;
   object-fit: contain;
-}
+} 
 
 @media (max-width: 480px) {
   .home {
